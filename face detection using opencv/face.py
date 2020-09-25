@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-faceCascade = cv2.CascadeClassifier('/haarcascade_frontalface_default.xml')
+faceCascade = cv2.CascadeClassifier('D:\Projectss\Gender & image compare\Webcam-Face-Age-Gender-Emotion-Detect-master/haarcascade_frontalface_default.xml')
 cap = cv2.VideoCapture(0)
 cap.set(3,640) # set Width
 cap.set(4,480) # set Height
